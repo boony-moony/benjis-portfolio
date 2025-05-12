@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(71, 70, 70);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.links {
+    color: #1a73e8;
+}
+
+.links:visited {
+    color: #1a73e8;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+    gap: 5rem;
+}
+
+
+.square {
+    background-color: rgba(35, 32, 36, 0.486);
+    box-shadow: 5px 5px 15px rgb(116, 96, 207);
+    border-radius: 1rem;
+    justify-content: top;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 20rem;
+    filter: blur(3px);
+    transition: box-shadow 0.5s ease, transform .5s ease,filter 1s ease, background-color 1s ease;
+
+}
+
+.square:hover {
+    box-shadow: 5px 5px 15px rgb(162, 0, 255);
+    transform:translateY(-15px);
+    filter: blur(0px);
+    background-color: rgb(162, 0, 255);
+    
+}
+
+.square-2 {
+    background-color: rgba(35, 32, 36, 0.486);
+    box-shadow: 5px 5px 15px rgb(155, 57, 18);
+    border-radius: 1rem;
+    justify-content: top;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 20rem;
+    filter: blur(3px);
+    transition: box-shadow 0.5s ease, transform .5s ease,filter 1s ease, background-color 1s ease;
+
+}
+
+.square-2:hover {
+    box-shadow: 5px 5px 15px rgb(255, 187, 0);
+    transform:translateY(-15px);
+    filter: blur(0px);
+    background-color: rgb(155, 57, 18);
+}
+
+.square-3 {
+    background-color: rgba(35, 32, 36, 0.486);
+    box-shadow: 5px 5px 15px rgb(155, 18, 93);
+    border-radius: 1rem;
+    justify-content: top;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 20rem;
+    filter: blur(3px);
+    transition: box-shadow 0.5s ease, transform .5s ease,filter 1s ease, background-color 1s ease;
+
+}
+
+.square-3:hover {
+    box-shadow: 5px 5px 15px rgb(219, 20, 203);
+    transform:translateY(-15px);
+    filter: blur(0px);
+    background-color: rgb(219, 20, 203);
+}
+
+.portfolio-title {
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 30px;
+}
+
+.projects {
+    text-align: center;
+    margin-top: 15rem;
+    font-size: 30px;
+}
+
+.throwables {
+    margin-top: 2rem;
+    margin-right: 50%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+    image-rendering: auto;
+    width: 40rem;
+    height: auto;
+    transform: rotate(+5deg); /* Tilts the image to the left */
+    transition: transform 0.3s ease-in-out; /* Optional: Adds smooth transition if you want to animate */
+
+}
+
+.throwables-info {
+    margin-top: 10rem;
+    text-align: right;
+}
+
+.throwables-title {
+    margin-right: 10rem;
+}
