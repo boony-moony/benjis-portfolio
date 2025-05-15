@@ -61,7 +61,11 @@ body {
         text-align: center;
         margin-top: 15rem;
         font-size: 30px;
-}
+    }
+        .links {
+            color: #1a73e8;
+            line-height: 4rem;
+    }
 
     }
   }
