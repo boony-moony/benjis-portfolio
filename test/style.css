@@ -1,15 +1,9 @@
 body {
-    background-color: #363636;
-    color: white;
+    background-color: rgb(71, 70, 70);
     font-family: Arial, Helvetica, sans-serif;
-
+    color: white;
 }
 
-.portfolio-title {
-    text-align: center;
-    margin-top: 10rem;
-    font-size: 30px;
-}
 
 @media only screen 
   and (min-device-width: 390px) 
@@ -18,6 +12,7 @@ body {
    body{
     .container {
         flex-direction:column;
+        gap: 10rem;
     }
     
     .video-sections {
@@ -25,7 +20,7 @@ body {
         flex-wrap: wrap;             
         justify-content: center;
         gap: 10rem;
-        margin-top: 0rem;                 
+        margin-top: rem;                 
     }
 
     .rope-info-container,
@@ -62,7 +57,7 @@ body {
         image-rendering: auto;
         width: 20rem;
         height: auto;
-        transform: rotate(+5deg);
+        transform: rotate(-1deg);
 
     }
   }
@@ -77,24 +72,15 @@ body {
     color: #1a73e8;
 }
 
-.container-projects {
-    background-color: #363636;
-    width: 6rem;
-    height: 2rem;
-    
-    text-align: center;
-    border-radius: 2rem;
-}
+
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 15rem;
-    gap: 10rem;
-
+    gap: 5rem;
 }
-
 
 .square {
     background-color: rgb(35, 32, 36);
@@ -113,14 +99,12 @@ body {
     box-sizing: border-box;
 }
 
-
-
-
 .square:hover {
     box-shadow: -10px 20px 0px #ff0000, 10px -20px 0px #0044ff;
     background-color: #181818;
     transform: scale(1.07) rotate(-3deg);
 }
+
 
 .square-2 {
     background-color: rgb(35, 32, 36);
@@ -172,6 +156,12 @@ body {
     transform: scale(1.07) rotate(3deg);
 }
 
+.portfolio-title {
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 30px;
+}
+
 .projects {
     text-align: center;
     margin-top: 15rem;
@@ -179,6 +169,7 @@ body {
 }
 
 .throwables-info {
+    margin-top: 20rem;
     text-align: right;
     margin-right: 50rem;
 }
