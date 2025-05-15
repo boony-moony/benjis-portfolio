@@ -95,6 +95,21 @@ body {
     font-size: 30px;
 }
 
+.throwables-info {
+    margin-top: 20rem;
+    text-align: right;
+    margin-right: 50rem;
+}
+
+.throwables-title {
+    margin-right: 25rem;
+}
+
+.throwables-info-text {
+    text-align: right;
+    margin-right: 15rem;
+}
+
 .throwables {
     margin-top: 2rem;
     margin-right: 40%;
@@ -109,15 +124,6 @@ body {
 
 .throwables:hover {
     box-shadow: #2a2d2e 10px 15px 10px;
-}
-.throwables-info {
-    margin-top: 20rem;
-    text-align: right;
-    margin-right: 20rem;
-}
-
-.throwables-title {
-    margin-right: 15rem;
 }
 
 
