@@ -5,10 +5,7 @@ body {
 }
 
 
-@media only screen 
-  and (min-device-width: 390px) 
-  and (max-device-width: 393px) 
-  and (orientation: portrait) {
+@media (max-width: 600px) {
    body{
     .container {
         flex-direction:column;
