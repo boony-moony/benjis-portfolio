@@ -1,0 +1,268 @@
+body {
+    background-color: #363636;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.portfolio-title {
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 30px;
+}
+
+@media only screen 
+  and (min-device-width: 390px) 
+  and (max-device-width: 393px) 
+  and (orientation: portrait) {
+   body{
+    .container {
+        flex-direction:column;
+    }
+    
+    .video-sections {
+        display: flex;
+        flex-wrap: wrap;             
+        justify-content: center;
+        gap: 10rem;
+        margin-top: 0rem;                 
+    }
+
+    .rope-info-container,
+    .teleport-info-container {
+        width: min(90vw, 20rem);     
+        padding: 1rem;
+        border-radius: 8px;
+        background-color: rgba(0, 0, 0, 0.3);
+        box-shadow: 0 4px 8px black;
+        margin-left: 0rem;
+        margin-bottom: 5rem;
+    }
+
+        .throwables-info {
+        text-align: right;
+        margin-right: 2.5rem;
+        
+    }
+
+    .throwables-title {
+        margin-right: 5rem;
+    }
+
+    .throwables-info-text {
+        text-align: right;
+        margin-right: 0rem;
+    }
+
+    .throwables {
+        margin-top: 2rem;
+        margin-right: 0rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px black;
+        image-rendering: auto;
+        width: 20rem;
+        height: auto;
+        transform: rotate(+5deg);
+
+    }
+  }
+}
+
+
+.links {
+    color: #1a73e8;
+}
+
+.links:visited {
+    color: #1a73e8;
+}
+
+.container-projects {
+    background-color: #363636;
+    width: 6rem;
+    height: 2rem;
+    
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+    gap: 10rem;
+
+}
+
+
+.square {
+    background-color: rgb(35, 32, 36);
+    box-shadow: 10px -20px 0px #ff0000, -10px 20px 0px #0044ff;
+    border-radius: 1rem;
+    justify-content: top;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 20rem;
+    transition: box-shadow 0.5s ease, transform .5s ease, rotate 0.3s ease-in-out;
+    overflow: scroll;
+    padding: 1rem;         
+    box-sizing: border-box;
+}
+
+
+
+
+.square:hover {
+    box-shadow: -10px 20px 0px #ff0000, 10px -20px 0px #0044ff;
+    background-color: #181818;
+    transform: scale(1.07) rotate(-3deg);
+}
+
+.square-2 {
+    background-color: rgb(35, 32, 36);
+    box-shadow: 10px -20px 0px #4c00ff, -10px 20px 0px #ff006a;
+    border-radius: 1rem;
+    justify-content: top;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 20rem;
+    transition: box-shadow 0.5s ease, transform .5s ease, rotate 0.3s ease-in-out;
+    overflow: scroll;
+    padding: 1rem;         
+    box-sizing: border-box;
+
+}
+
+
+.square-2:hover {
+    box-shadow: -10px 20px 0px #ff006a, 10px -20px 0px #4c00ff;
+    background-color: #181818;
+    transform: translateY(-2rem) scale(1.05);
+}
+
+.square-3 {
+    background-color: rgb(35, 32, 36);
+    box-shadow: 10px -20px 0px #eeff00, -10px 20px 0px #00ff22;
+    border-radius: 1rem;
+    justify-content: top;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 20rem;
+    transition: box-shadow 0.5s ease, transform .5s ease, rotate 0.3s ease-in-out;
+    overflow: scroll;
+    padding: 1rem;         
+    box-sizing: border-box;
+
+}
+
+
+.square-3:hover {
+    box-shadow: -10px 20px 0px #00ff22, 10px -20px 0px #eeff00;
+    background-color: #181818;
+    transform: scale(1.07) rotate(3deg);
+}
+
+.projects {
+    text-align: center;
+    margin-top: 15rem;
+    font-size: 30px;
+}
+
+.throwables-info {
+    text-align: right;
+    margin-right: 50rem;
+}
+
+.throwables-title {
+    margin-right: 25rem;
+}
+
+.throwables-info-text {
+    text-align: right;
+    margin-right: 15rem;
+}
+
+.throwables {
+    margin-top: 2rem;
+    margin-right: 40%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+    image-rendering: auto;
+    width: 40rem;
+    height: auto;
+    transform: rotate(+5deg);
+    transition: transform 0.3s ease-in-out, box-shadow 0.5s;
+}
+
+.throwables:hover {
+    box-shadow: #2a2d2e 10px 15px 10px;
+}
+
+
+.video-sections {
+    display: flex;
+    flex-wrap: wrap;             
+    justify-content: center;
+    gap: 10rem;                    
+    margin-top: 20rem;
+}
+
+
+.rope-info-container,
+.teleport-info-container {
+    width: min(90vw, 40rem);     
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px black;
+    transition: transform 0.3s ease-in-out;
+    margin-left: 15rem;
+    margin-bottom: 5rem;
+}
+
+
+.rope-info-container {
+    transform: rotate(5deg);
+    transition: box-shadow 0.5s;
+}
+
+.rope-info-container:hover {
+    box-shadow: #2a2d2e 10px 15px 10px;
+}
+
+.teleport-info-container {
+    transform: rotate(-5deg);
+    transition: box-shadow 0.5s;
+}
+
+.teleport-info-container:hover {
+    box-shadow: #2a2d2e 10px 15px 10px;
+}
+
+.rope-video,
+.teleport-video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.rope-title,
+.teleport-title {
+    text-align: center;
+}
+
+.rope-description,
+.teleport-description {
+    margin-top: 2rem;
+    text-align: center;
+}
