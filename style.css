@@ -4,6 +4,69 @@ body {
     color: white;
 }
 
+@media (max-width: 600px) {
+   body{
+    .container {
+        flex-direction:column;
+        gap: 10rem;
+    }
+    
+    .video-sections {
+        display: flex;
+        flex-wrap: wrap;             
+        justify-content: center;
+        gap: 10rem;
+        margin-top: rem;                 
+    }
+
+    .rope-info-container,
+    .teleport-info-container {
+        width: min(90vw, 20rem);     
+        padding: 1rem;
+        border-radius: 8px;
+        background-color: rgba(0, 0, 0, 0.3);
+        box-shadow: 0 4px 8px black;
+        margin-left: 0rem;
+        margin-bottom: 5rem;
+    }
+
+        .throwables-info {
+        text-align: right;
+        margin-right: 2.5rem;
+        
+    }
+
+    .throwables-title {
+        margin-top: 20rem;
+        margin-left: 6.25rem;
+        text-align: center;
+    }
+
+    .throwables-info-text {
+        text-align: right;
+        margin-right: 0rem;
+    }
+
+    .throwables {
+        margin-top: 2rem;
+        margin-right: 0rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px black;
+        image-rendering: auto;
+        width: 20rem;
+        height: auto;
+        transform: rotate(-1deg);
+    
+    .projects {
+        text-align: center;
+        margin-top: 15rem;
+        font-size: 30px;
+}
+
+    }
+  }
+}
+
 .links {
     color: #1a73e8;
 }
