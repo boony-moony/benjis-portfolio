@@ -97,16 +97,19 @@ body {
 
 .throwables {
     margin-top: 2rem;
-    margin-right: 50%;
+    margin-right: 40%;
     border-radius: 8px;
     box-shadow: 0 4px 8px black;
     image-rendering: auto;
     width: 40rem;
     height: auto;
     transform: rotate(+5deg);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, box-shadow 0.5s;
 }
 
+.throwables:hover {
+    box-shadow: #2a2d2e 10px 15px 10px;
+}
 .throwables-info {
     margin-top: 20rem;
     text-align: right;
@@ -122,7 +125,7 @@ body {
     display: flex;
     flex-wrap: wrap;             
     justify-content: center;
-    gap: 20rem;                    
+    gap: 10rem;                    
     margin-top: 20rem;
 }
 
@@ -142,10 +145,20 @@ body {
 
 .rope-info-container {
     transform: rotate(5deg);
+    transition: box-shadow 0.5s;
+}
+
+.rope-info-container:hover {
+    box-shadow: #2a2d2e 10px 15px 10px;
 }
 
 .teleport-info-container {
     transform: rotate(-5deg);
+    transition: box-shadow 0.5s;
+}
+
+.teleport-info-container:hover {
+    box-shadow: #2a2d2e 10px 15px 10px;
 }
 
 .rope-video,
