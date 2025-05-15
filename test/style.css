@@ -12,7 +12,7 @@ body {
    body{
     .container {
         flex-direction:column;
-        gap: 10rem;
+        gap: 15;
     }
     
     .video-sections {
@@ -41,6 +41,7 @@ body {
     }
 
     .throwables-title {
+        margin-top: 20rem;
         margin-right: 5rem;
     }
 
@@ -58,6 +59,12 @@ body {
         width: 20rem;
         height: auto;
         transform: rotate(-1deg);
+    
+    .projects {
+        text-align: center;
+        margin-top: 15rem;
+        font-size: 30px;
+}
 
     }
   }
