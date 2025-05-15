@@ -42,7 +42,8 @@ body {
 
     .throwables-title {
         margin-top: 20rem;
-        margin-right: 5rem;
+        margin-left: 6.25rem;
+        text-align: center;
     }
 
     .throwables-info-text {
