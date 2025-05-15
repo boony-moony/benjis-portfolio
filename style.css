@@ -119,6 +119,7 @@ body {
 
 .links {
     color: #1a73e8;
+    line-height: 2rem;
 }
 
 .links:visited {
