@@ -25,7 +25,7 @@ body {
         width: min(90vw, 20rem);     
         padding: 1rem;
         border-radius: 8px;
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: rgb(20, 20, 20);
         box-shadow: 0 4px 8px black;
         margin-left: 0rem;
         margin-bottom: 5rem;
@@ -137,7 +137,7 @@ body {
 }
 
 .square {
-    background-color: rgb(35, 32, 36);
+    background-color: rgb(20, 20, 20);
     box-shadow: 10px -20px 0px #ff0000, -10px 20px 0px #0044ff;
     border-radius: 1rem;
     justify-content: top;
@@ -155,13 +155,13 @@ body {
 
 .square:hover {
     box-shadow: -10px 20px 0px #ff0000, 10px -20px 0px #0044ff;
-    background-color: #181818;
+    background-color: #000000;
     transform: scale(1.07) rotate(-3deg);
 }
 
 
 .square-2 {
-    background-color: rgb(35, 32, 36);
+    background-color: rgb(20, 20, 20);
     box-shadow: 10px -20px 0px #4c00ff, -10px 20px 0px #ff006a;
     border-radius: 1rem;
     justify-content: top;
@@ -181,12 +181,12 @@ body {
 
 .square-2:hover {
     box-shadow: -10px 20px 0px #ff006a, 10px -20px 0px #4c00ff;
-    background-color: #181818;
+    background-color: #000000;
     transform: translateY(-2rem) scale(1.05);
 }
 
 .square-3 {
-    background-color: rgb(35, 32, 36);
+    background-color: rgb(20, 20, 20);
     box-shadow: 10px -20px 0px #eeff00, -10px 20px 0px #00ff22;
     border-radius: 1rem;
     justify-content: top;
@@ -206,7 +206,7 @@ body {
 
 .square-3:hover {
     box-shadow: -10px 20px 0px #00ff22, 10px -20px 0px #eeff00;
-    background-color: #181818;
+    background-color: #000000;
     transform: scale(1.07) rotate(3deg);
 }
 
@@ -268,7 +268,7 @@ body {
     width: min(90vw, 40rem);     
     padding: 1rem;
     border-radius: 8px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgb(20, 20, 20);
     box-shadow: 0 4px 8px black;
     transition: transform 0.3s ease-in-out;
     margin-left: 15rem;
