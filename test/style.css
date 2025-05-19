@@ -15,9 +15,13 @@ body {
     margin-top: 10rem;
     border-radius: 50%;
     height: 8rem;
-    margin-left: 53rem;
-    margin-bottom: 0rem;    
+    margin-bottom: 1rem;
 
+}
+
+.avatarimgdiv {
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 600px) {
