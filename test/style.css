@@ -1,17 +1,35 @@
 body {
+
     background-color: rgb(19, 19, 19);
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    
+}
+
+.links {
+
+    color: #1a73e8;
+    line-height: 2rem;
+
+}
+
+.links:visited {
+
+    color: #1a73e8;
+
 }
 
 .portfolio-title {
+
     text-align: center;
     margin-top: 2rem;
     font-size: 30px;
+
 }
 
 
 .imgheader {
+
     margin-top: 10rem;
     border-radius: 50%;
     height: 8rem;
@@ -20,308 +38,51 @@ body {
 }
 
 .avatarimgdiv {
+
     display: flex;
     justify-content: center;
-}
 
-@media (max-width: 600px) {
-   body{
-    .container {
-        flex-direction:column;
-        gap: 10rem;
-    }
-    
-    .video-sections {
-        display: flex;
-        flex-wrap: wrap;             
-        justify-content: center;
-        gap: 10rem;
-        margin-top: rem;                 
-    }
-
-    .rope-info-container,
-    .teleport-info-container {
-        width: min(90vw, 20rem);     
-        padding: 1rem;
-        border-radius: 8px;
-        background-color: rgb(20, 20, 20);
-        box-shadow: 0 4px 8px black;
-        margin-left: 0rem;
-        margin-bottom: 5rem;
-    }
-
-        .throwables-info {
-        text-align: right;
-        margin-right: 2.5rem;
-        
-    }
-
-    .throwables-title {
-        margin-top: 20rem;
-        margin-left: 6.25rem;
-        text-align: center;
-    }
-
-    .throwables-info-text {
-        text-align: right;
-        margin-right: 0rem;
-    }
-
-    .throwables {
-        margin-top: 2rem;
-        margin-right: 0rem;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px black;
-        image-rendering: auto;
-        width: 20rem;
-        height: auto;
-        transform: rotate(-1deg);
-    
-    .projects {
-        text-align: center;
-        margin-top: 15rem;
-        font-size: 30px;
-    }
-
-    }
-  }
-}
-
-@media (min-width: 1920px) and (max-width: 1920px) and
-       (min-height: 1080px) and (max-height: 1080px) {
-    body {
-
-
-    .video-sections {
-        display: flex;
-        flex-wrap: wrap;             
-        justify-content: center;
-        gap: 5rem;                    
-        margin-top: 20rem;
-    }
-
-    .rope-info-container,
-    .teleport-info-container {
-        width: min(90vw, 40rem);     
-        padding: 1rem;
-        border-radius: 8px;
-        background-color: rgba(0, 0, 0, 0.3);
-        box-shadow: 0 4px 8px black;
-        transition: transform 0.3s ease-in-out;
-        margin-left: 10rem;
-        margin-bottom: 5rem;
-    }   
-
-    .throwables-title {
-        margin-right: 15rem;
-    }
-
-    .throwables-info-text {
-        text-align: right;
-        margin-right: 0rem;
-    }
-
-    .throwables {
-        margin-top: 2rem;
-        margin-right: 10%;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px black;
-        image-rendering: auto;
-        width: 40rem;
-        height: auto;
-        transform: rotate(+5deg);
-        transition: transform 0.3s ease-in-out, box-shadow 0.5s;
-    }
-
-
-    }
-}
-
-
-.links {
-    color: #1a73e8;
-    line-height: 2rem;
-}
-
-.links:visited {
-    color: #1a73e8;
 }
 
 .container {
+
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15rem;
-    gap: 5rem;
+    margin-top: 25rem;
+    gap: 15rem;
+
 }
 
-.square {
-    background-color: rgb(20, 20, 20);
-    box-shadow: 10px -20px 0px #ff0000, -10px 20px 0px #0044ff;
-    border-radius: 1rem;
-    justify-content: top;
-    align-items: center;
+.about-me {
+
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    width: 15rem;
-    height: 20rem;
-    transition: box-shadow 0.5s ease, transform .5s ease, rotate 0.3s ease-in-out;
-    overflow: scroll;
-    padding: 1rem;         
-    box-sizing: border-box;
-}
-
-.square:hover {
-    box-shadow: -10px 20px 0px #ff0000, 10px -20px 0px #0044ff;
-    background-color: #000000;
-    transform: scale(1.07) rotate(-3deg);
-}
-
-
-.square-2 {
-    background-color: rgb(20, 20, 20);
-    box-shadow: 10px -20px 0px #4c00ff, -10px 20px 0px #ff006a;
-    border-radius: 1rem;
-    justify-content: top;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    width: 15rem;
-    height: 20rem;
-    transition: box-shadow 0.5s ease, transform .5s ease, rotate 0.3s ease-in-out;
-    overflow: scroll;
-    padding: 1rem;         
-    box-sizing: border-box;
+    width: 10rem;
+    border-width: 20rem;
+    font-size: 2rem;
+    background-color: #0000002a;
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgba(0, 174, 255, 0.075), rgba(140, 0, 255, 0.075)) 1;
+    box-shadow: 0px -2px 5px #00fff204, 0px 2px 5px #ffffff04;
 
 }
-
-
-.square-2:hover {
-    box-shadow: -10px 20px 0px #ff006a, 10px -20px 0px #4c00ff;
-    background-color: #000000;
-    transform: translateY(-2rem) scale(1.05);
-}
-
-.square-3 {
-    background-color: rgb(20, 20, 20);
-    box-shadow: 10px -20px 0px #eeff00, -10px 20px 0px #00ff22;
-    border-radius: 1rem;
-    justify-content: top;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    width: 15rem;
-    height: 20rem;
-    transition: box-shadow 0.5s ease, transform .5s ease, rotate 0.3s ease-in-out;
-    overflow: scroll;
-    padding: 1rem;         
-    box-sizing: border-box;
-
-}
-
-
-.square-3:hover {
-    box-shadow: -10px 20px 0px #00ff22, 10px -20px 0px #eeff00;
-    background-color: #000000;
-    transform: scale(1.07) rotate(3deg);
-}
-
 
 .projects {
+
     text-align: center;
-    margin-top: 15rem;
-    font-size: 30px;
+    width: 10rem;
+    border-width: 20rem;
+    font-size: 2rem;
+    background-color: #0000002a;
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgba(140, 0, 255, 0.075), rgba(0, 174, 255, 0.075)) 1;
+    box-shadow: 0px -2px 5px #00fff204, 0px 2px 5px #ffffff04;
+
 }
 
-.throwables-info {
-    margin-top: 20rem;
-    text-align: right;
-    margin-right: 50rem;
-}
+.main-link {
 
-.throwables-title {
-    margin-right: 25rem;
-}
+    color: #ffffff;
+    text-decoration: none;
 
-.throwables-info-text {
-    text-align: right;
-    margin-right: 15rem;
-}
-
-.throwables {
-    margin-top: 2rem;
-    margin-right: 40%;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px black;
-    image-rendering: auto;
-    width: 40rem;
-    height: auto;
-    transform: rotate(+5deg);
-    transition: transform 0.3s ease-in-out, box-shadow 0.5s;
-}
-
-.throwables:hover {
-    box-shadow: #2a2d2e 10px 15px 10px;
-}
-
-
-.video-sections {
-    display: flex;
-    flex-wrap: wrap;             
-    justify-content: center;
-    gap: 10rem;                    
-    margin-top: 20rem;
-}
-
-
-.rope-info-container,
-.teleport-info-container {
-    width: min(90vw, 40rem);     
-    padding: 1rem;
-    border-radius: 8px;
-    background-color: rgb(20, 20, 20);
-    box-shadow: 0 4px 8px black;
-    transition: transform 0.3s ease-in-out;
-    margin-left: 15rem;
-    margin-bottom: 5rem;
-}
-
-
-.rope-info-container {
-    transform: rotate(5deg);
-    transition: box-shadow 0.5s;
-}
-
-.rope-info-container:hover {
-    box-shadow: #2a2d2e 10px 15px 10px;
-}
-
-.teleport-info-container {
-    transform: rotate(-5deg);
-    transition: box-shadow 0.5s;
-}
-
-.teleport-info-container:hover {
-    box-shadow: #2a2d2e 10px 15px 10px;
-}
-
-.rope-video,
-.teleport-video {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.rope-title,
-.teleport-title {
-    text-align: center;
-}
-
-.rope-description,
-.teleport-description {
-    margin-top: 2rem;
-    text-align: center;
 }
