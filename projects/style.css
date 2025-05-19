@@ -1,0 +1,220 @@
+body {
+
+    background-color: rgb(19, 19, 19);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+.links {
+
+    color: #1a73e8;
+    line-height: 2rem;
+
+}
+
+.links:visited {
+
+    color: #1a73e8;
+
+}
+
+.portfolio-title {
+
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 30px;
+
+}
+
+
+.imgheader {
+
+    margin-top: 10rem;
+    border-radius: 50%;
+    height: 8rem;
+    margin-bottom: 1rem;
+
+}
+
+.avatarimgdiv {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.main-link {
+
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.link-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    gap: 15rem;
+
+}
+
+.home {
+
+    text-align: center;
+    width: 10rem;
+    border-width: 20rem;
+    font-size: 2rem;
+    background-color: #0000002a;
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgba(0, 174, 255, 0.075), rgba(140, 0, 255, 0.075)) 1;
+    box-shadow: 0px -2px 5px #00fff204, 0px 2px 5px #ffffff04;
+
+}
+
+.about-me {
+
+    text-align: center;
+    width: 10rem;
+    border-width: 20rem;
+    font-size: 2rem;
+    background-color: #0000002a;
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgba(140, 0, 255, 0.075), rgba(0, 174, 255, 0.075)) 1;
+    box-shadow: 0px -2px 5px #00fff204, 0px 2px 5px #ffffff04;
+
+}
+
+.rope {
+
+    padding: 2.5rem;
+    background-color: #0000002a;
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgba(140, 0, 255, 0.075), rgba(0, 174, 255, 0.075)) 1;
+    box-shadow: 0px -2px 5px #00fff204, 0px 2px 5px #ffffff04;
+    border-radius: 1rem;
+    width: 80rem;
+
+    margin-top: 15rem;
+    margin-left: 5rem;
+}
+
+.rope-title {
+    text-align: center;
+}
+
+.rope-info {
+    text-align: center;
+}
+
+.teleport {
+
+    padding: 2.5rem;
+    background-color: #0000002a;
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgba(140, 0, 255, 0.075), rgba(0, 174, 255, 0.075)) 1;
+    box-shadow: 0px -2px 5px #00fff204, 0px 2px 5px #ffffff04;
+    border-radius: 1rem;
+    width: 80rem;
+
+    margin-top: 15rem;
+    margin-left: 65rem;
+}
+
+.teleport-title {
+    text-align: center;
+}
+
+.teleport-info {
+    text-align: center;
+}
+
+.thermal {
+
+    padding: 2.5rem;
+    background-color: #0000002a;
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgba(140, 0, 255, 0.075), rgba(0, 174, 255, 0.075)) 1;
+    box-shadow: 0px -2px 5px #00fff204, 0px 2px 5px #ffffff04;
+    border-radius: 1rem;
+    width: 80rem;
+
+    margin-top: 15rem;
+    margin-left: 5rem;
+}
+
+.thermal-title {
+    text-align: center;
+}
+
+.thermal-info {
+    text-align: center;
+}
+
+.gun {
+
+    padding: 2.5rem;
+    background-color: #0000002a;
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgba(140, 0, 255, 0.075), rgba(0, 174, 255, 0.075)) 1;
+    box-shadow: 0px -2px 5px #00fff204, 0px 2px 5px #ffffff04;
+    border-radius: 1rem;
+    width: 80rem;
+
+    margin-top: 15rem;
+    margin-left: 65rem;
+}
+
+.gun-title {
+    text-align: center;
+}
+
+.gun-info {
+    text-align: center;
+}
+
+.double {
+
+    padding: 2.5rem;
+    background-color: #0000002a;
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgba(140, 0, 255, 0.075), rgba(0, 174, 255, 0.075)) 1;
+    box-shadow: 0px -2px 5px #00fff204, 0px 2px 5px #ffffff04;
+    border-radius: 1rem;
+    width: 80rem;
+
+    margin-top: 15rem;
+    margin-left: 5rem;
+}
+
+.double-title {
+    text-align: center;
+}
+
+.double-info {
+    text-align: center;
+}
+
+.scuba {
+
+    padding: 2.5rem;
+    background-color: #0000002a;
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgba(140, 0, 255, 0.075), rgba(0, 174, 255, 0.075)) 1;
+    box-shadow: 0px -2px 5px #00fff204, 0px 2px 5px #ffffff04;
+    border-radius: 1rem;
+    width: 80rem;
+
+    margin-top: 15rem;
+    margin-left: 65rem;
+}
+
+.scuba-title {
+    text-align: center;
+}
+
+.scuba-info {
+    text-align: center;
+}
