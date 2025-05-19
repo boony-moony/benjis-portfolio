@@ -4,6 +4,21 @@ body {
     color: white;
 }
 
+.portfolio-title {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 30px;
+}
+
+
+.imgheader {
+    margin-top: 10rem;
+    border-radius: 50%;
+    height: 8rem;
+    margin-left: 53rem;
+    margin-bottom: 0rem;    
+
+}
 
 @media (max-width: 600px) {
    body{
@@ -210,11 +225,6 @@ body {
     transform: scale(1.07) rotate(3deg);
 }
 
-.portfolio-title {
-    text-align: center;
-    margin-top: 10rem;
-    font-size: 30px;
-}
 
 .projects {
     text-align: center;
