@@ -6,6 +6,20 @@ body {
     
 }
 
+
+    @media (max-width: 600px) {
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200rem;
+        gap: 25rem;
+        /* fix the buttons gap */
+      }
+    }
+
+
+
 .links {
 
     color: #1a73e8;
