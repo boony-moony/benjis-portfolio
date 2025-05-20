@@ -6,6 +6,40 @@ body {
     
 }
 
+@media screen and (max-width: 1920px) and (min-width: 1200px) {
+
+    .videos {
+        height: auto;
+        max-width: 45rem;
+
+    }
+
+    .rope {
+        max-width: 45rem;
+        
+    }
+
+    .teleport {
+        max-width: 45rem;
+    }
+
+    .thermal {
+        max-width: 45rem;
+    }
+
+    .gun {
+        max-width: 45rem;
+    }
+
+    .double {
+        max-width: 45rem;
+    }
+
+    .scuba {
+        max-width: 45rem;
+    }
+}
+
 .links {
 
     color: #1a73e8;
@@ -125,7 +159,7 @@ body {
     width: 80rem;
 
     margin-top: 15rem;
-    margin-left: 65rem;
+    margin-left: 60rem;
 }
 
 .teleport-title {
@@ -169,7 +203,7 @@ body {
     width: 80rem;
 
     margin-top: 15rem;
-    margin-left: 65rem;
+    margin-left: 60rem;
 }
 
 .gun-title {
@@ -213,7 +247,7 @@ body {
     width: 80rem;
 
     margin-top: 15rem;
-    margin-left: 65rem;
+    margin-left: 60rem;
 }
 
 .scuba-title {
